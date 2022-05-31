@@ -62,7 +62,7 @@ describe('REST API integration test', () => {
       
   });
 
-  test('PUT /person/:id', () => {
+  test('PUT /person/:id/:vaccine', () => {
     return Person.insertMany(insertData)
       .then((res) => {
         const id = res[0]._id.toString();
