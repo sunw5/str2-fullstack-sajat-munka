@@ -1,0 +1,24 @@
+{
+  "name": "eszt",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",    
+    "dev": "nodemon ./bin/www",
+    "test": "jest"
+  },
+  "dependencies": {
+    "config": "^3.3.7",
+    "dotenv": "^16.0.1",
+    "express": "~4.18.1",
+    "mongoose": "^6.3.4",
+    "morgan": "~1.10.0",
+    "pug": "3.0.2",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "jest-mock-req-res": "^1.0.2",
+    "supertest": "^6.2.3"
+  }
+}

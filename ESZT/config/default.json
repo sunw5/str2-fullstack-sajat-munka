@@ -1,0 +1,7 @@
+{
+  "database": {
+    "username": "nodeUser",
+    "password": "55555",
+    "host": "cluster0.72uqy.mongodb.net/vaccine?retryWrites=true&w=majority"
+  }
+}
